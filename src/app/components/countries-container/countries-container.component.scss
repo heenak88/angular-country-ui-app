@@ -1,12 +1,8 @@
-.content {
+:host {
     display: flex;
-    margin: 0px auto 32px;
+    margin: 20px auto 0px;
     padding: 0 16px;
     max-width: 960px;
     flex-direction: column;
     align-items: center;
-}
-
-h1 {
-    margin: 20px 0px 0px 0px;
 }

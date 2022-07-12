@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'country-ui-app'`, () => {
+  it(`should have as title 'Regions, countries and country details'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('country-ui-app');
+    expect(app.title).toEqual('Regions, countries and country details');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('country-ui-app app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('Regions, countries and country details app is running!');
   });
 });

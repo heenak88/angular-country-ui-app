@@ -1,7 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { CountriesContainerComponent } from './components/countries-container/countries-container.component';
+
+const routes: Routes = [
+  {
+    path: '', redirectTo: 'ade', pathMatch: 'full'
+  },
+  {
+    path: '**', component: CountriesContainerComponent
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
