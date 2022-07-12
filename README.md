@@ -15,7 +15,7 @@ Country UI is an Angular application - Uses an API to display a list of regions,
 ```Markdown
 
 # Clone the repository
-git clone reponame
+git clone https://github.com/heenak88/angular-country-ui-app.git
 
 # Navigate to the app's root directory
 cd angular-ui-app
